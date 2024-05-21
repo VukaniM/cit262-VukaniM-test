@@ -1,0 +1,19 @@
+{
+  "name": "nodejsexample",
+  "version": "1.0.0",
+  "description": "my first made nj file",
+  "main": "index.js",
+  "scripts": {
+    "hello": "node helloworld.js",
+    "test": "jest"
+  },
+  "author": "vukani Mhlanga",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.4.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
