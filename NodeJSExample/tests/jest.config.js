@@ -3,5 +3,6 @@ module.exports = {
     './src/*.js': {
       lines: 80,
     },
+    
   },
 };
