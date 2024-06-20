@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718271147854" clover="3.2.0">
-  <project timestamp="1718271147854" name="All files">
+<coverage generated="1718863792393" clover="3.2.0">
+  <project timestamp="1718863792394" name="All files">
     <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="8" coveredelements="8" complexity="0" loc="6" ncloc="6" packages="1" files="2" classes="2"/>
     <file name="forEach.js" path="C:\Users\my pc\Github\itm350-VukaniM-test\NodeJSExample\src\forEach.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
