@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: $vukanim/cit262-$vukanim-bb:1.0
+        tags: $vukanim/itm350-$vukanim-bb:1.0
