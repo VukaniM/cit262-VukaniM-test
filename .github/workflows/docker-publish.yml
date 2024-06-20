@@ -10,7 +10,7 @@ on:
       - closed
 
 env:
-  REPO_NAME: itm350-vukanim-bb
+  REPO_NAME: vukanim/itm350-vukanim-bb
 
 jobs:
 
