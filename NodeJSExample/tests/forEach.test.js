@@ -1,4 +1,4 @@
-// forEach.test.js
+// forEach.test.jsn
 const { forEach } = require('../src/forEach');
 
 test('forEach calls the callback', () => {
