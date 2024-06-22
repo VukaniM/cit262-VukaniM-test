@@ -46,3 +46,16 @@ jobs:
       - name: Run tests
         run: npm test
         working-directory: ./.github/workflows/bb/bulletin-board-app
+        - run: npm ci
+    - run: npm test
+      env:
+        CI: true
+    - name: Check coverage
+      run: |
+        THRESHOLD=50
+        COVERAGE=$(npm run coverage -- --json | jq '.total.statements.pct')
+        echo "Code coverage is $COVERAGE%"
+        if (( $(echo "$COVERAGE < $THRESHOLD" | bc -l) )); then
+          echo "Code coverage is below $THRESHOLD%"
+          exit 1
+        fi
